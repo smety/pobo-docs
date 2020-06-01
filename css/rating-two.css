@@ -1,0 +1,44 @@
+.rc-rating-two {
+    display: flex;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.rc-rating-two__list {
+    padding: 0;
+    margin: 0 0 0 5px;
+    list-style-type: none;
+}
+
+.rc-rating-two__list-item {
+    padding: 5px 0 5px 30px !important;
+    position: relative !important;
+    margin: 0 !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+}
+
+.rc-rating-two__list-item:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 6px;
+    width: 20px;
+    height: 20px;
+}
+
+.rc-rating-two__list-item--plus:after {
+    background: url("/plus.bd392080.svg") no-repeat center center;
+}
+
+.rc-rating-two__list-item--minus:after {
+    background: url("/minus.836edc37.svg") no-repeat center center;
+}
+
+.rc-rating-two__pros {
+    width: 50%;
+}
+
+.rc-rating-two__const {
+    width: 50%;
+}
