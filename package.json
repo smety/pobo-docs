@@ -1,0 +1,31 @@
+{
+  "name": "pobo-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel watch widget/*.scss --out-dir css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/smety/pobo-docs.git"
+  },
+  "keywords": [
+    "pobo",
+    "widget",
+    "css",
+    "sass"
+  ],
+  "author": "Tomas Smetka <info@pobo.cz>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smety/pobo-docs/issues"
+  },
+  "homepage": "https://github.com/smety/pobo-docs#readme",
+  "devDependencies": {
+    "parcel-bundler": "1.12.4"
+  },
+  "dependencies": {
+    "bootstrap": "4.3.1"
+  }
+}
