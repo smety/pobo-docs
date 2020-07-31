@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel watch widget/*.scss --out-dir css/"
+    "dev": "parcel watch widget/*.scss --out-dir css/ --public-url '../css/'",
+    "prettier": "prettier --write ./css/* && prettier --write ./widget/*",
+    "build": "parcel build widget/*.scss  --no-source-maps --out-dir css/ --public-url '../css/' && npm run prettier"
   },
   "repository": {
     "type": "git",
@@ -23,7 +25,8 @@
   },
   "homepage": "https://github.com/smety/pobo-docs#readme",
   "devDependencies": {
-    "parcel-bundler": "1.12.4"
+    "parcel-bundler": "1.12.4",
+    "prettier": "2.0.5"
   },
   "dependencies": {
     "bootstrap": "4.3.1"
