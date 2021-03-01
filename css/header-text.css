@@ -1,16 +1,16 @@
 .rc-header-text {
   text-align: center;
   padding: 20px 0;
-  margin: 20px 0;
-}
-.rc-header-text__header {
-  font-size: 30px;
-  padding: 0;
-  margin: 0;
-}
-.rc-header-text__text {
-  font-size: 15px;
-  padding: 0;
-  margin: 20px 0 0;
-  line-height: 24px;
-}
+  margin: 20px 0; }
+  .rc-header-text__header {
+    font-size: 30px;
+    padding: 0;
+    margin: 0; }
+  .rc-header-text__text {
+    font-size: 15px;
+    padding: 0;
+    margin: 20px 0 0 0;
+    line-height: 24px; }
+
+
+/*# sourceMappingURL=../css/header-text.css.map */

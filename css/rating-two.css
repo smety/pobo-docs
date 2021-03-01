@@ -1,49 +1,41 @@
 .rc-rating-two {
   padding: 20px 0;
-  width: 100%;
-}
-@media (min-width: 576px) {
-  .rc-rating-two {
-    display: flex;
-  }
-}
-.rc-rating-two__list {
-  padding: 0;
-  margin: 0 0 0 5px;
-  list-style-type: none;
-}
-.rc-rating-two__list-item {
-  padding: 5px 0 5px 30px !important;
-  position: relative !important;
-  margin: 0 !important;
-  font-size: 16px !important;
-  line-height: 22px !important;
-}
-.rc-rating-two__list-item:after {
-  position: absolute;
-  content: "";
-  left: 0;
-  top: 6px;
-  width: 20px;
-  height: 20px;
-}
-.rc-rating-two__list-item:before {
-  display: none !important;
-}
-.rc-rating-two__list-item--plus:after {
-  background: url(../css/plus.01245021.svg) no-repeat 50%;
-}
-.rc-rating-two__list-item--minus:after {
-  background: url(../css/minus.836edc37.svg) no-repeat 50%;
-}
-@media (max-width: 767.98px) {
-  .rc-rating-two__pros {
-    margin: 50px 0 0;
-  }
-}
-@media (min-width: 576px) {
-  .rc-rating-two__const,
-  .rc-rating-two__pros {
-    width: 50%;
-  }
-}
+  width: 100%; }
+  @media (min-width: 576px) {
+    .rc-rating-two {
+      display: flex; } }
+  .rc-rating-two__list {
+    padding: 0;
+    margin: 0 0 0 5px;
+    list-style-type: none; }
+  .rc-rating-two__list-item {
+    padding: 5px 0 5px 30px !important;
+    position: relative !important;
+    margin: 0 !important;
+    font-size: 16px !important;
+    line-height: 22px !important; }
+    .rc-rating-two__list-item:after {
+      position: absolute;
+      content: '';
+      left: 0;
+      top: 6px;
+      width: 20px;
+      height: 20px; }
+    .rc-rating-two__list-item:before {
+      display: none !important; }
+  .rc-rating-two__list-item--plus:after {
+    background: url("../css/plus.4be33d19.svg") no-repeat center center; }
+  .rc-rating-two__list-item--minus:after {
+    background: url("../css/minus.ba963a04.svg") no-repeat center center; }
+  @media (max-width: 767.98px) {
+    .rc-rating-two__pros {
+      margin: 50px 0 0 0; } }
+  @media (min-width: 576px) {
+    .rc-rating-two__pros {
+      width: 50%; } }
+  @media (min-width: 576px) {
+    .rc-rating-two__const {
+      width: 50%; } }
+
+
+/*# sourceMappingURL=../css/rating-two.css.map */

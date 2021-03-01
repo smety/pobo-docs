@@ -37,6 +37,12 @@ Zkopírujeme do něj:
 6. Spustíme `npm run dev` a nakódujeme HTML šablonu 
 7. Commitneme a pushneme 
 
+- Video YouTube
+- Dárek 
+- Hodnocení 
+- Text v obrázku
+
+
 ## Seznam komponent 
 
 ```

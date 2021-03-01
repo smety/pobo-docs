@@ -1,62 +1,52 @@
 .checked-list {
   padding: 0;
   margin: 0;
-  max-width: 500px;
-}
-.checked-list li {
-  padding: 5px 0 5px 35px;
-  position: relative;
-  margin: 0;
-  list-style: none;
-  line-height: 24px;
-  font-size: 16px;
-}
-.checked-list li:before {
-  position: absolute;
-  left: 0;
-  top: 7px;
-  width: 20px;
-  content: "";
-  height: 20px;
-  background: url(../css/checked.6d34c046.svg) no-repeat 50%;
-}
+  max-width: 500px; }
+  .checked-list li {
+    padding: 5px 0 5px 35px;
+    position: relative;
+    margin: 0;
+    list-style: none;
+    line-height: 24px;
+    font-size: 16px; }
+    .checked-list li:before {
+      position: absolute;
+      left: 0;
+      top: 7px;
+      width: 20px;
+      content: '';
+      height: 20px;
+      background: url("../css/checked.6b3fdc09.svg") no-repeat center center; }
+
 .img-fluid {
   max-width: 100%;
   height: auto;
-  width: 100%;
-}
+  width: 100%; }
+
 .checked-left-image {
   display: flex;
-  align-items: center;
-}
-@media (max-width: 767.98px) {
-  .checked-left-image {
-    display: block;
-  }
-}
-.checked-left-image__header {
-  padding: 0 0 20px;
-  margin: 0;
-  font-size: 28px;
-}
-.checked-left-image__list {
-  width: 50%;
-  padding: 0 40px 0 0;
-}
-@media (max-width: 767.98px) {
+  align-items: center; }
+  @media (max-width: 767.98px) {
+    .checked-left-image {
+      display: block; } }
+  .checked-left-image__header {
+    padding: 0 0 20px 0;
+    margin: 0;
+    font-size: 28px; }
   .checked-left-image__list {
-    width: 100%;
-  }
-}
-.checked-left-image__image {
-  width: 50%;
-}
-@media (max-width: 767.98px) {
+    width: 50%;
+    padding: 0 40px 0 0; }
+    @media (max-width: 767.98px) {
+      .checked-left-image__list {
+        width: 100%; } }
   .checked-left-image__image {
-    width: 100%;
-  }
-}
-.checked-left-image__img {
-  max-width: 100%;
-  height: auto;
-}
+    width: 50%; }
+    @media (max-width: 767.98px) {
+      .checked-left-image__image {
+        width: 100%; } }
+  .checked-left-image__img {
+    max-width: 100%;
+    height: auto; }
+
+
+/*# sourceMappingURL=../css/checked-left-image.css.map */
